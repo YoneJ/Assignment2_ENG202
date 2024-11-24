@@ -44,7 +44,7 @@ transformed_ground_truth = np.array([
     [0.595, -0.41]   # P5›
 ])
 
-lidar_data = pd.read_csv('lidar_positions (5).csv')
+lidar_data = pd.read_csv('lidar_positions.csv')
 
 lidar_x = lidar_data['X'].values   # LIDAR x
 lidar_y = lidar_data['Y'].values   # LIDAR y
