@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-encoder_data = pd.read_csv('SensorData.csv')
+encoder_data = pd.read_csv('EncoderData.csv')
 
 encoder_x = encoder_data['x'].values   # Encoder x
 encoder_y = encoder_data['y'].values   # Encoder y
