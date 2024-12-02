@@ -10,7 +10,7 @@ from matplotlib import pyplot as plt
 data_x, data_y, data_time = [],[],[]
 
 # Initialize Arduino connection (adjust port for Ubuntu)
-arduino = serial.Serial(port='/dev/ttyUSB1', baudrate=115200, timeout=1)  # Ubuntu uses /dev/ttyUSB* or /dev/ttyACM*
+arduino = serial.Serial(port='/dev/ttyUSB0', baudrate=115200, timeout=1)  # Ubuntu uses /dev/ttyUSB* or /dev/ttyACM*
 time.sleep(2)
 
 # Function to extract x, y, theta from the received data
